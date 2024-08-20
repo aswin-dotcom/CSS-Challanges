@@ -1,0 +1,49 @@
+html,body{
+    padding:0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    width: 80%;
+   
+    
+}
+
+.searchlabel{
+    
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      
+}
+.search{
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   
+    min-width: 80px;
+    transition: all .3s ease-in;
+}
+.search:focus{
+    width: 100%;
+    border: 1px solid #007BFF;
+    outline: none; 
+    
+    
+}
+.search::placeholder{
+    font-weight: bold;
+    
+}
+.search:focus::placeholder{
+    color: transparent;
+}

@@ -1,0 +1,80 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square1{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    animation: square1 infinite 1s;
+    transform: rotate(45deg);
+}
+.square2{
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    margin: 20px;
+
+    animation: square2 infinite 1s;
+    transform: rotate(45deg);
+}
+.square3{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    animation: square3 infinite 1s;
+    transform: rotate(45deg);
+
+}
+@keyframes square1 {
+    from{
+        background-color: red;
+        transform: rotate(-45deg);
+
+
+    }
+    to{
+        
+        background-color:yellow;
+       
+        transform: rotate(45deg);
+
+    }
+    
+}
+@keyframes square2 {
+    from{
+        transform: rotate(-45deg);
+        background-color: brown;
+
+    }
+    to{
+        
+        transform: rotate(45deg);
+        background-color: red;
+
+    }
+    
+}
+@keyframes square3 {
+    from{
+        transform: rotate(-45deg);
+        background-color: yellow;
+
+    }
+    to{
+        transform: rotate(45deg);
+        background-color: brown;
+
+
+    }
+    
+}

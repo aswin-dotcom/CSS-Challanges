@@ -1,0 +1,40 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #1E1F25;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-container{
+    background: linear-gradient(115deg,red,yellow,orange);
+    padding: 2px;
+    border-radius: 5px;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    
+    
+}
+.button-container:hover{
+    background: linear-gradient(115deg,orange,red,yellow);
+   
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+
+}
+
